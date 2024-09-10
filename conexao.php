@@ -3,7 +3,7 @@
     function DatabaseConector(){
 
         $host = "localhost";
-        $dbname = "dbform";
+        $dbname = "loja";
         $user = "root";
         $password = "";
 

@@ -4,10 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>formulario</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <form action="index.php" name="form" method="post">
-        <label for="form">Nome: </label> <input type="text" name="user">
+        <label for="form">Nome: </label> <input type="text" name="nome">
+        <br><br>
+        <label for="form">Endereço: </label><input type="text" name="endereco">
+        <br><br>
+        <label for="form">Cidade: </label> <input type="text" name="cidade">
+        <br><br>
+        <label for="form">estado</label>
+         <select name="estado">
+            <option value="AC">Acre - AC</option>
+            <option>Alagoas - AL</option>
+            <option>Amapá - AP</option>
+            <option>Amazonas - AM</option>
+            <option>Bahia - BA</option>
+            <option>Ceará - CE</option>
+            <option>Espirito Santo - ES</option>
+            <option>Goias - GO</option>
+            <option>Maranhão - MA</option>
+            <option>Mato Grosso - MT</option>
+            <option>Mato Grosso do Sul - MS</option>
+            <option>Minas Gerais - MG</option>
+            <option>Pará - PA</option>
+            <option>Paraíba - PB</option>
+            <option>Paraná - PR</option>
+            <option>Pernambuco - PE</option>
+            <option>Piauí - PI</option>
+            <option>Rio De Janeiro - RJ</option>
+            <option>Rio Grande Do Norte - RN</option>
+            <option>Rio Grande Do Sul - RS</option>
+            <option>Rondonia - RO</option>
+            <option>Roraima - RR</option>
+            <option>Santa Catarina - SC</option>
+            <option>São Paulo - SP</option>
+            <option>Sergipe - SE</option>
+            <option>Tocantins - TO</option>
+            <option>Distrito Federal - DF</option>
+        </select>
         <br><br>
         <input type="submit" value="Enviar">
     </form>
